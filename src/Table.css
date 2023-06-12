@@ -1,0 +1,268 @@
+
+table{
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+td{
+    color: #667085;
+}
+
+.container{
+    padding: 0;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.container > div {
+    justify-content: space-between;
+}
+input[type=search]{
+    border: 0px;
+    width: 30vw;
+    background-color: #FFFFFF;
+    color: black;
+}
+input[type=search]:focus{
+    outline: 0px solid #FFFFFF;
+}
+.box{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.box2{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13.5px;
+}
+.box0{
+    align-items: center;
+}
+.box0 > span{
+    color: #0070FF;
+    background-color: #F6FAFF;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-weight: 500;
+    
+}
+h4{
+    font-size: 17.31px;
+}
+button{
+    font-size: 13.5px;
+}
+thead{
+    background-color: #FCFCFD;
+}
+.box2 > button, .mx-1{
+    font-size: 13.46px;
+    font-weight: 500;
+}
+
+.symbol{
+    font-size: 22px;
+    padding-left: 2px;
+}
+.sym3{
+    display: none;
+}
+
+.text-secondary, .text-primary{
+    font-weight: 500;
+}
+
+.footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot{
+    font-weight: 500;
+    height: 7vh;
+    width: 10rem;
+}
+.foot > .btn{
+    height: 2.5rem;
+}
+p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+    input[type=search]{
+        max-width: 20vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    table{
+        font-size: 11px;
+    }
+    .mx-1{
+        font-size: 12px;
+    }
+    .symbol{
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+    }
+    .btn{
+        padding: 2px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .box0 > span{
+        font-size: 10px;
+    }
+    input[type=search]{
+        max-width: 15vw;
+
+    }
+    .foot{
+        width: 7rem;
+    }
+    .foot > .btn{
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    table{
+        font-size: 8px;
+    }
+    .mx-1{
+        font-size: 9px;
+    }
+    .symbol{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .btn{
+        padding: 1px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .box0 > span{
+        font-size: 9px;
+    }
+    input[type=search]{
+        max-width: 8vw;
+    }
+    .box{
+        height: 8vh;
+    }
+    input[type=search]{
+        position: relative;
+        top: -7px;
+    }
+    .sym2{
+        top: -7px;
+        font-size: 15px;
+    }
+    .box0 > span{
+        font-size: 6px;
+    }
+    .btn > span{
+        position: relative;
+        top: -2px;
+    }
+    .btn > .symbol {
+        position: relative;
+        top: -2px;
+    }
+    .foot{
+        width: 5rem;
+        font-size: 12px;
+    }
+    .foot > .btn{
+        height: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    table{
+        font-size: 7px;
+    }
+    .sym2{
+        right: 0px;
+    }
+    input[type=search]{
+        right: 4px;
+    }
+    .btn > span{
+        font-size: 7px;
+        top: -3px;
+    }
+    .btn > .symbol{
+        top: -3px;
+    }
+    .btn{
+        height: 7vh;
+        border-radius: 3px;
+    }
+    .mx-1{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 482px) {
+    table{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 468px) {
+    .mx-1> span{
+        display: none;
+    }
+    .mx-2 > span{
+        display: none;
+    }
+    input[type=search]{
+        max-width: 15vw;
+    }
+    .foot{
+        font-size: 10px;
+    }
+    .foot > .btn{
+        height: 1.4rem;
+    }
+}
+@media screen and (max-width: 434px) {
+    table{
+        font-size: 4px;
+    }
+    .foot{
+        width: 5rem;
+    }
+}
+@media screen and (max-width: 349px) {
+    input[type=search]{
+        width: 50vw;
+    }
+    .sym3{
+        display: block;
+    }
+    .sym3:hover + .box2 > .mx-2, .btn{
+        display: block;
+    }
+    .box2 > .btn{
+        display: none;
+    }
+    .box2 > .mx-2{
+        display: none;
+    }
+    .foot > .btn{
+        height: 15px;
+    }
+    .box{
+        width: 55vw;
+    }
+}
